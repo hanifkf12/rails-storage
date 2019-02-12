@@ -81,5 +81,6 @@ test:
 production:
   <<: *default
   database: untitled_production
-  username: untitled
-  password: <%= ENV['UNTITLED_DATABASE_PASSWORD'] %>
+  username: deploy
+  #password: <%= ENV['UNTITLED_DATABASE_PASSWORD'] %>
+  password: 123456
